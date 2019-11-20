@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Hind&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background: url("photo.jpg") no-repeat top center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.nav1{
+   justify-content: center;
+   display:flex; 
+   width: 100%;    
+}
+
+.nav1 li{
+ 
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+    
+}
+
+.nav1 li a{
+    display: block;
+    padding: 20px;
+    position: relative;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: hind;
+    color: #ffffff;
+    
+}
+
+.nav1:hover li a {
+    
+    transform: scale(1.5);
+    opacity: .2;
+    filter: blur(5px);
+}
+.nav1 li a:hover {
+    
+    transform: scale(2);
+    opacity: 1;
+    filter: blur(0);
+}
+.footer{
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    color: #ffffff;
+    font-family: hind;
+    text-align: center;
+
+
+}
+table{
+    position: center;
+    margin:0 auto;
+    width: 550px;
+    text-align: left;
+    background-color: #d1603f;
+    border: 2px solid black;
+    border-radius: 2px;
+    font-family: hind;
+    
+}
+
+table, th, td {
+    
+    border: 2px solid black;
+    border-collapse: collapse;
+    
+}
+
+th, td {
+  padding: 5px;
+}
+h1{
+    text-align: center;
+    font-family: hind;
+    color: black;
+    
+}
